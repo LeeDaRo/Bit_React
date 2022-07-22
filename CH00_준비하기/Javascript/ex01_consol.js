@@ -19,3 +19,8 @@ let 주현아 = "츄르먹자~";
 console.log("주현아", 주현아);
 console.log(typeof (주현아));
 console.log("값은 %s 입니다", 주현아);
+
+//ES6
+var json = { id: 'bitcamp' };
+console.log('Hello my id is ' + json.id + ', good!');
+console.log(`Hello my id is ${json.id} 입니다`);
