@@ -1,0 +1,41 @@
+.comment {
+  display: flex;
+  margin: 8px;
+  padding: 8px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-info {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.user-info-name {
+  background-color: rgb(167, 151, 151);
+  font-weight: bold;
+  color: rgb(54, 38, 18);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.comment-text {
+  margin-left: 10px;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comment-date {
+  margin-top: 5px;
+}
