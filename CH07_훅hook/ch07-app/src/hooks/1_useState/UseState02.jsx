@@ -13,7 +13,7 @@ const UseState02 = () => {
     setNames((preState) => {
       return [...preState, input + '\n,'];
     });
-  }
+  };
 
   return (
     <div className='container'>
