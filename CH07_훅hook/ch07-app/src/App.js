@@ -1,11 +1,11 @@
 import './App.css';
-import UseReducer03 from './hooks/6_useReducer/UseReducer03';
+import Home from './hooks/8_useContext/Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseReducer03 />
+
       </header>
     </div>
   );

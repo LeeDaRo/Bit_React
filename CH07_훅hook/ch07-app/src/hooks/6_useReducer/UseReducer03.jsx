@@ -6,11 +6,13 @@ const reducer = (state, action) => {
   switch (action.type) {
     case 'add-student':
       const name = action.payload;
+
       const newStudent = {
         id: Date.now(),
         name: name,
         isHere: false
       };
+
       return {
         count: state.count + 1,
         students: [...state.students, newStudent]
@@ -22,6 +24,7 @@ const reducer = (state, action) => {
         count: state.count - 1,
         students: state.students.filter(student => student.id !== action.payload)
       };
+
     case 'check-student':
       return {
         count: state.count,
